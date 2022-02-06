@@ -1,0 +1,38 @@
+<template>
+  <div class="page" data-name="home">
+    <!-- Top Navbar -->
+    <div class="navbar md no-shadow">
+      <div class="navbar-bg" style="background-color: white;"></div>
+      <div class="navbar-inner">
+        <div class="left">
+          <a href="#" class="link icon-only panel-open" data-panel="left">
+            <i class="icon f7-icons if-not-md">menu</i>
+            <i class="icon material-icons if-md">menu</i>
+          </a>
+        </div>
+        <div class="title sliding">Aplikasi Cuaca</div>
+       
+       
+      </div>
+    </div>
+    
+    <!-- Scrollable page content-->
+    <div class="page-content" style="margin-top:-60px;">
+      <iframe class="embed-responsive-item" width="100%" height="100%" src="https://www.accuweather.com/" frameborder="0" allowfullscreen></iframe>       
+    </div>
+
+  </div>
+</template>
+<script>
+export default () => {
+  return $render;
+}
+</script>
+<style>
+  .md {
+        --f7-font-family: Roboto, system-ui, Noto, Helvetica, Arial, sans-serif;
+        --f7-text-color: #212121;
+        --f7-line-height: 1.4;
+        --f7-bars-border-color: rgba(0, 0, 0, 0.25);
+  }
+</style>
