@@ -1,4 +1,9 @@
-# Aplikasi Cuaca
+# Aplikasi Cuaca dengan Framework 7
+
+![alt text](https://github.com/Wishnupmi/aplikasi_cuaca/blob/main/cuaca.jpg)
+
+#Channel Youtube Wishnu Programming : 
+https://youtu.be/RQ98UUixrjA
 
 ## Framework7 CLI Options
 
